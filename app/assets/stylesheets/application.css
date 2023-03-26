@@ -1,0 +1,171 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+
+
+body > div.container > div.alert.alert-success {
+	
+	color: gray;
+}
+
+#piano {
+	background-color: black;
+}
+
+body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  background: #E3CAA1;
+  background-color: #AFC6BE;
+}
+
+body > div.container{
+	background-color: #AFC6BE;
+}
+
+element.style {
+	top:0px;
+	height: 0px
+}
+
+.sm-audio {
+	max-width: 45px;
+}
+.chordbox {
+	text-align: center;
+	display: inline;
+	width: 50px;
+  
+  
+  
+}
+
+
+.finger{
+  cursor: pointer;
+  display: inline;
+}
+
+
+html {
+  background-color: #AFC6BE;
+}
+
+body > div.container > div > div > button {
+  border-radius: 20px;
+}
+
+button {
+  border-radius: 20px;
+}
+
+.btn-sm, .btn-group-sm>.btn {
+  border-radius: 20px;
+}
+
+table.gridtable {
+  font-family: verdana,arial,sans-serif;
+  font-size:11px;
+  color:#333333;
+  border-width: 1px;
+  border-color: black;
+  border-collapse: collapse;
+  width:100%;
+  /*margin-left: 350px;*/
+  /*margin-top: 200px;*/
+  margin: 0 auto;
+  
+}
+
+table.gridtable th {
+  border-width: 0px;
+  padding: 8px;
+  border-style: solid;
+  border-color: black;
+  background-color: #dedede;
+
+}
+
+table.gridtable td {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: black;
+  background-color: #ffffff;
+}
+
+
+#progression-details {
+  width: 700px;
+  max-width: 700px; 
+  margin-left:70px;
+  height:250px;
+}
+
+#progression-name {
+  width: 700px;
+  margin-left: 70px;
+}
+
+
+
+.butt3 {
+  padding-right:20px;
+  position: inline;
+}
+
+.butt4 {
+  padding-left:20px;
+  position: inline;
+}
+
+
+
+.bootsy{
+  padding-left: 30.5%;
+}
+.navbar {
+  position: relative;
+}
+
+.forever {
+  position:inline;
+}
+
+.call {
+  bottom:0;
+  left:0;
+  position:static;
+  width:100%;
+  margin-bottom: 0;
+}
+
+#progression-index{
+  height: 92vh;
+}
+
+#bignote1, #bignote2, #bignote3 {
+  font-weight:bold;
+  display:inline;
+  font-size: 100px;
+  color:green;
+}
+
+.navbar-inverse .navbar-brand {
+  color:green;
+}

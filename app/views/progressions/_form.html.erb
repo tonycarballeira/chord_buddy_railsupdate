@@ -1,0 +1,34 @@
+<%= form_for(@progression) do |f| %>
+  <% if @progression.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@progression.errors.count, "error") %> prohibited this progression from being saved:</h2>
+
+      <ul>
+      <% @progression.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  
+
+<!-- <p><%#= session[:progression] %></p> -->
+
+<div class="row">
+  <div class="col-md-offset-2">
+      <%= f.text_field :name, placeholder:"Progression Name...", class:"form-control", id:"progression-name" %>
+    </div>
+</div>
+<br/>
+<div class="row">
+    <div class="col-md-offset-2">
+      <%= f.text_area :description, placeholder: "Progression Description...", class:"form-control", id:"progression-details" %>
+    </div>
+    </div>
+    <br/>
+<div class="row">
+      <%= f.submit %>
+    </div>
+  <% end %>
+</div>
