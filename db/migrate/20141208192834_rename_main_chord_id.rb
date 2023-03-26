@@ -1,4 +1,4 @@
-class RenameMainChordId < ActiveRecord::Migration[4.1.7]
+class RenameMainChordId < ActiveRecord::Migration[4.1]
   def change
   	drop_table :main_chords
   	remove_column :ordered_chords, :main_chord_id

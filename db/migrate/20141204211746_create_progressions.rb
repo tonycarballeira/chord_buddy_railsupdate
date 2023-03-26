@@ -1,4 +1,4 @@
-class CreateProgressions < ActiveRecord::Migration[4.1.7]
+class CreateProgressions < ActiveRecord::Migration[4.1]
   def change
     create_table :progressions do |t|
       t.string :name
