@@ -1,4 +1,4 @@
-class CreateOrderedChords < ActiveRecord::Migration
+class CreateOrderedChords < ActiveRecord::Migration[4.1.7]
   def change
     create_table :ordered_chords do |t|
       t.integer :order
