@@ -1,16 +1,16 @@
 // Configure your import map in config/importmap.rb. Read more: https://github.com/rails/importmap-rails
-import "@hotwired/turbo-rails"
-import "controllers"
-import "jquery"
-import "jquery_ujs"
-import "popper"
-import "bootstrap"
-import "application"
-import "audio"
-import "chord_piano"
-import "jquery-1.7.1.min"
-import "jquery-ui.min"
-import "piano"
+// import "@hotwired/turbo-rails"
+// import "controllers"
+// import "jquery"
+// import "jquery_ujs"
+// import "popper"
+// import "bootstrap"
+// import "application"
+// import "audio"
+// import "chord_piano"
+// import "jquery-1.7.1.min"
+// import "jquery-ui.min"
+// import "piano"
 
 $(function() {
     // $( document ).tooltip({
