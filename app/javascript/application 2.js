@@ -25,14 +25,14 @@
  //            }
  //        });
 
-$(function() {
-    $( document ).tooltip({
-    	items: '.suggestion',
-    	content: function() {
-    		var chord = $(this).data()['chord'];
-    		return '<img src="/fingerings/' + chord + '.jpg" alt="' + chord + '">';
-    	}
-    });
+// $(function() {
+//     $( document ).tooltip({
+//     	items: '.suggestion',
+//     	content: function() {
+//     		var chord = $(this).data()['chord'];
+//     		return '<img src="/fingerings/' + chord + '.jpg" alt="' + chord + '">';
+//     	}
+//     });
 $(".chordbox").each(function(b) {
 	$(this).find(".finger").on("click", function( e ) {
 		e.preventDefault
