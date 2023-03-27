@@ -1,0 +1,30 @@
+# fly.toml file generated for cool-butterfly-2818 on 2023-03-27T14:21:32-04:00
+
+app = "cool-butterfly-2818"
+kill_signal = "SIGINT"
+kill_timeout = 5
+mounts = []
+primary_region = "mia"
+processes = []
+
+[[services]]
+  internal_port = 3000
+  processes = ["app"]
+  protocol = "tcp"
+  [services.concurrency]
+    hard_limit = 25
+    soft_limit = 20
+    type = "connections"
+
+  [[services.ports]]
+    force_https = true
+    handlers = ["http"]
+    port = 80
+
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    port = 443
+
+[[statics]]
+  guest_path = "/rails/public"
+  url_prefix = "/"
