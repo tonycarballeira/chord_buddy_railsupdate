@@ -26,13 +26,13 @@
  //        });
 
 $(function() {
-    $( document ).tooltip({
-    	items: '.suggestion',
-    	content: function() {
-    		var chord = $(this).data()['chord'];
-    		return '<img src="/assets/fingerings/' + chord + '.jpg" alt="' + chord + '">';
-    	}
-    });
+    // $( document ).tooltip({
+    // 	items: '.suggestion',
+    // 	content: function() {
+    // 		var chord = $(this).data()['chord'];
+    // 		return '<img src="/assets/fingerings/' + chord + '.jpg" alt="' + chord + '">';
+    // 	}
+    // });
 $(".chordbox").each(function(b) {
 	$(this).find(".finger").on("click", function( e ) {
 		e.preventDefault
